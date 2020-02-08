@@ -1,0 +1,19 @@
+{
+  "name": "shared-components-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garthwhitaker/shared-components-parcel.git"
+  },
+  "author": "Garth Whitaker <garth.whitaker@gmail.com> (http://garthwhitaker.co.za/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garthwhitaker/shared-components-parcel/issues"
+  },
+  "homepage": "https://github.com/garthwhitaker/shared-components-parcel#readme"
+}
