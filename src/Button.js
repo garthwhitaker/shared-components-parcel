@@ -1,7 +1,7 @@
 import React from "react";
-
-const Button = () => {
-  return <div>Button</div>;
+import MuiButton from "@material-ui/core/Button";
+const Button = props => {
+  return <MuiButton {...props} />;
 };
 
 export default Button;

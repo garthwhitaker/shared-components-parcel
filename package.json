@@ -2,9 +2,9 @@
   "name": "shared-components-parcel",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start:examples": "parcel examples/index.html",
+    "start:examples": "parcel examples/index.html --watch --open",
     "build": "babel src --out-dir dist",
     "prepare": "npm run build"
   },
@@ -26,6 +26,7 @@
     "parcel-bundler": "1.12.4"
   },
   "dependencies": {
+    "@material-ui/core": "4.9.1",
     "react": "16.12.0",
     "react-dom": "16.12.0"
   }
